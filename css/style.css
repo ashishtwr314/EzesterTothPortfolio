@@ -1,0 +1,704 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'PT Sans', sans-serif;*/
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+ body{
+    margin: 0;
+    padding: 0;
+}
+ #pixie {
+    width:100%;
+    height:100%;
+    box-shadow: 1px 0px 599px -13px rgba(255,255,255,1) inset;
+    filter: blur(7px);
+    background-color: #00C5D7;
+}
+.technical{
+    margin: 0;
+    padding: 0;
+    height: 100%;   
+}
+.grid-wrapper{
+    z-index: -999;
+}
+#content{
+    background-color: transparent;
+    height:100%;
+    border: 20px solid;
+   
+}
+
+.technical #content{
+    
+     border-color: rgb(0,197,215);
+     background-size:50px 50px;
+}
+
+
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.callout{
+    display: inline-block;
+    position: absolute;
+    bottom: 50%;
+    left: 40%;;
+    
+}
+.herotext{
+    position: absolute;
+    left: 38%;
+    bottom: 5%;
+    display: inline-block;
+}
+.herotext *{
+    font-family: 'PT Sans', sans-serif;
+}
+.herotext h1{
+    color: rgb(255,1,81);
+    font-size: 4em;
+}
+.herotext h2{
+    color: #fff;
+    font-weight: 100;
+    font-size: 2.5em;
+}
+.home{
+    position: relative;
+}
+
+.heroimage{
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+}
+.heroimage img{
+    width: 400px;
+}
+.navigations > div{
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    background-size: contain;
+    cursor: pointer;
+}
+.navigations p a{
+    font-size: 1.4em;
+    line-height: 0;
+    color: #fff;
+    text-decoration: none;
+}
+.navigations .top{
+    top: 40px;
+    left: 40%;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 10px;
+}
+.navigations .right{
+    right: 40px;
+    top: 45%;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-position: -5px -5px;
+    
+}
+.navigations .left{
+    left: 40px;
+    top: 45%;
+    background-position: -5px -5px;
+    background-repeat: no-repeat;
+   
+}
+.navigations .left img, .navigations .right img{
+    margin-top: 30px;
+}
+.social-nav{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;;
+}
+.social-nav .nav{
+    list-style: none;
+    padding: 0;
+}
+.social-nav li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.social-nav li a{
+    font-size: 1.5em;
+    color: #fff;
+}
+.navigations > .top:hover img{
+   animation: slidingArrowUp 0.4s;
+    
+}
+.navigations > .left:hover img{
+   animation: slidingArrowLeft 0.4s;
+}
+.navigations > .right:hover img{
+   animation: slidingArrowRight 0.4s;
+}
+@keyframes slidingArrowUp{
+    0%{
+        opacity: 1;
+        transform: translate(0) rotate(-90deg);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-100px) rotate(-90deg);
+    }
+}
+.arrowdown{
+    position: absolute;
+    bottom: 40px;
+    left: 48%;
+    display: inline-block;
+    transform: rotate(90deg); 
+    z-index: 1100;
+    cursor: pointer;
+}
+.arrowright{
+    position: fixed;
+    bottom: 50%;
+    display: none;
+    right: 50px;
+    z-index: 10000;
+}
+
+.heading{
+    color:rgb(0,197,215);
+    font-size: 3em;
+    letter-spacing: 3px;
+    margin: 100px 0;
+    display: inline-block;
+    min-width: 600px;
+    padding: 10px;
+    background-size: cover;
+    background-position: 2px -5px;
+}
+
+.piechart{
+    position: absolute;
+    bottom: 40%;
+    right: 30px;
+    
+}
+.graph{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+.technical #content p{
+    font-size: 1.3em;
+    color: rgb(0,197,215);
+}
+.starRight, .starUp{
+    position: absolute;
+}
+.starRight{
+    left: 70%;
+    bottom: 19%;
+}
+.starUp{
+    top: 30%;
+    left: 18.5%;
+}
+
+.visual #content{
+    background-color: rgb(247,230,223);
+    z-index: -999;
+    border-color: rgb(123,52,94);
+}
+.flower-right-top, .flower-left-bottom, .conversation, .diagram, .case-study-float{
+    position: absolute;
+}
+.visual .heading{
+    color: #7b345e;
+    margin-top: 0;
+}
+.heading-back{
+    font-size: 5em;
+    opacity: 0.15;
+    margin-bottom: -85px;
+}
+.conceptual #content{
+    background-color: #fff;
+}
+.conceptual .heading{
+    color: #000;
+}
+.conceptual .heading-back{
+    margin-bottom: -190px;
+}
+.iamintrestedBtn{
+    text-decoration: none;
+    color: #000;
+}
+.conceptual .btn{
+    padding: 10px 25px;
+    border: 0;
+    background-color: rgb(144,177,22);
+    font-size: 1.2em;
+    border-radius: 10px;
+    font-weight: 900;
+    color: #fff;
+    outline: 0;
+    border: 1px solid transparent;
+    transition: all 0.4s;
+    cursor: pointer;   
+}
+.conceptual .btn:hover{
+    border-color: rgb(144,177,22);
+    color: rgb(144,177,22);
+    background-color: #fff;
+    
+}
+.conceptual #content{
+    border-color: rgb(202,202,202);
+}
+.conceptual{
+    position: relative;
+}
+.modal{
+    position: relative;
+    width: 100%;
+    height:a auto;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 999;
+}
+.modal-dialog .arrowright{
+    margin-right: -90px;
+}
+.modal .modal-dialog > div > .g-row >.g-col{
+    height: 100px;
+    background-color: rgb(244,244,244);
+}
+.modal .modal-dialog > div > .g-row:nth-child(7) >.g-col{
+    height: 120px;
+    background-color: rgb(244,244,244);
+}
+.modal .sno{
+    font-size: 10em;
+    margin: 0;
+    line-height: 147px;
+    margin-top: -55px;
+}
+.modal .g-row{
+    margin: 100px 0 50px 0;
+}
+.modal .topic{
+    line-height: 0;
+    margin: 0;
+}
+.modal .quote{
+    color: rgb(134,134,134);
+}
+
+.tools a{
+    text-decoration: none;
+    color: rgb(255,1,81);
+}
+.case-study > div{
+    width: 550px;
+    padding: 35px;
+    margin: 0 auto;
+    border: 5px dashed;
+    background-color: rgb(244,244,244);
+    margin-bottom: 50px;
+}
+.modal-dialog .conversation{
+    right: 30px;
+    top: 30px;
+}
+
+.case-study-float{
+    z-index: 10000;
+    position: fixed;
+    top: 150px;
+    left: 50px;
+    display: none;
+    text-align: center;
+}
+.modal-dialog .diagram{
+    bottom: 25px;
+    left: 35px;
+}
+.case-study > div p{
+    margin: 0;
+}
+.modal hr{
+    border: 4px solid rgb(182,182,182);
+    width: 50px;
+    margin: 0 auto;
+}
+.grid-wrapper{
+    z-index:1100;
+}
+.mosaic-grid{
+    z-index: 800;
+    width: 80%;
+    margin: 20px auto 35px auto;
+    text-align: center;
+    height: auto;
+}
+.grid-item{
+    width: 33.33%;
+    margin: 0 auto;
+}
+.grid-item img{
+    padding: 10px;
+    width: 100%;
+}
+.grid-item img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.visual, .conceptual{
+    position: relative;
+    z-index: -999;
+}
+
+.image-modal{
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    top: 0;
+    z-index: 1100;
+    display: none;
+    overflow-x: hidden;
+}
+.image-modal .close{
+    position: absolute;
+    right: 100px;
+    z-index: 1100;
+    top: 20px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 5em;
+    cursor: pointer;
+}
+
+
+.image-modal-dialog{
+    position: fixed;
+    width: 100%;
+    top: 200px;
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.modal .modal-dialog{
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+.lightbox-control.prev{
+    position: fixed;
+    top: 45%;
+    font-size: 3.5em;
+    text-decoration: none;
+    left: 50px;
+}
+.lightbox-control.next{
+    position: fixed;
+    top: 45%;
+    font-size: 3.5em;
+    text-decoration: none;
+    right: 50px;
+}
+.lightbox-control a{
+    color: #fff;
+}
+
+
+
+.flower-right-top{
+    right: 0;
+    top: 0;
+}
+.flower-left-bottom{
+    left: 0;
+    bottom: 0;
+}
+#fullpage{
+}
+.loader{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 999;
+    
+}
+/*.arrowleft{
+    transform: rotate(180deg);
+    float: left;
+    position: absolute;
+    top: auto;
+    margin-top: 100px;
+    margin-left: 30px;
+}*/
+
+.arrowleft{
+    transform: rotate(180deg);
+    position: absolute;
+    top: 30%;
+    right:92%;
+    z-index: 10000;
+    display: none;
+}
+.iamintrested{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+.iamintrested .g-row{
+    text-align: left; 
+    margin: 30px 0;
+}
+.iamintrested .close{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+@keyframes slidingArrowLeft{
+    0%{
+        opacity: 1;
+        transform: translateX(0) rotate(180deg);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(-100px) rotate(180deg);
+    }
+}
+@keyframes slidingArrowRight{
+    0%{
+        opacity: 1;
+        transform: translateX(0)
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(40px)
+    }
+}
+@media (max-width: 1024px){
+    .diagram{
+        bottom: 50px;
+    }
+}
+@media (max-width: 990px){
+    .heroimage img{
+        width: 300px;
+    }
+    .piechart{
+        bottom: 50px;
+        right: 30px;
+
+    }
+    .piechart img{
+        width: 150px;
+    }
+    .graph{
+        left: 30px;
+        bottom: 50px;
+    }
+    .graph img{
+        width: 150px;
+    }
+    .heading{
+         margin: 20px 0;
+    }
+    .conceptual .heading{
+        margin: 50px 0;
+    }
+    .conversation, .diagram, .case-study-float{
+        display: none;
+    }
+    .case-study img{
+        display: none;
+        
+    }
+    .case-study{
+        text-align: center;
+    }
+    
+}
+@media (max-width: 768px){
+    .heroimage img{
+        width: 230px;
+    }
+    .herotext h1{
+        font-size: 2em;
+    }
+    .herotext h2{
+        font-size: 1.5em;
+    }
+    .heading{
+        min-width: 100%;       
+    }
+    .flower-right-top img, .flower-left-bottom img{
+        width: 120px;
+    }
+    .modal-dialog > div{
+        padding: 0 10%;
+    }
+    .modal-dialog .sno, .modal-dialog .topic{
+        line-height: normal;
+    }   
+    .modal .modal-dialog > div > .g-row >.g-col{
+        height: 200px;
+    }
+    .modal .modal-dialog > div > .g-row:nth-child(7) >.g-col,  .modal .modal-dialog > div > .g-row:nth-child(5) >.g-col{
+         height: 350px
+    }
+    .modal .modal-dialog > div > .g-row:nth-child(7) >.g-col:nth-child(2), .modal .modal-dialog > div > .g-row:nth-child(5) >.g-col:nth-child(2){
+
+        height: 200px;
+    }
+     .case-study > div{
+        width: 100%;
+        margin: 0;
+    }
+    .lightbox-control.prev, .lightbox-control.next{
+        top: 30%;
+    }
+    .prev a, .next a{
+        font-size: 0.5em;
+    }
+
+   
+}
+@media (max-width: 490px){
+    .herotext{
+        left: 30%;
+    }
+    .heroimage img{
+        width: 180px;
+    }
+    .heading{
+         background-position: -100px center;
+    }
+    .callout{
+        top: 55%;
+        left: 35%;
+    }
+    .callout img{
+        width: 50%;
+    }
+    .social-nav{
+        left: -80%;
+    }
+    .social-nav li{
+        display: block;
+    }
+    .social-nav li a{
+        color: rgb(255,1,81)
+    }
+    .navigations .top{
+        left: 10%;
+    }
+    .navigations .left{
+        left: 5px;
+        top: 30%;
+    }
+    .navigations .right{
+        right: 5px;
+        top: 30%;
+    }
+    .visual .heading{
+        width: 100%;
+        margin: 30px 0;
+        font-size: 1.4em;
+    }
+    .visual .heading-back{
+        font-size: 3em;
+        
+    }    
+    .conceptual p{
+        padding: 0 10px;
+    }
+    .diagram, .conversation{
+        display: none;
+    }
+    .arrowleft{
+        top: 10%;
+        right:80%;
+    }
+    .arrowleft img{
+        width: 40px;
+    }
+    .arrowright img{
+        width: 60px;
+    }
+    .arrowright{
+        position: fixed;
+        bottom: 50%;
+        right: 10px;
+        z-index: 10000;
+    }
+    .image-modal img{
+        margin: 0 auto;
+    }
+    .image-modal .close{
+       right: 0;
+        font-size: 4em;
+    }
+    
+    .lightbox-control.prev{
+        left: 0;
+    }
+    .lightbox-control.next{
+        right: 0;
+    }
+}
+@media (max-width:320px){
+    .navigations .top{
+        left: 0%;
+    }
+    .conceptual .heading, .conceptual .heading{
+        margin-left: -8px;
+    }
+    
+}
+
+
+
+
+
+
+
+

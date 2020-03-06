@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="89px" viewBox="0 0 101 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-423.000000, -254.000000)">
+            <g id="Group-2" transform="translate(424.000000, 255.000000)">
+                <path d="M63.6720008,65.2452213 C69.9013902,63.4794566 76.2324886,61.2176984 82.8956439,58.6902947 C105.948212,49.946217 99.5888832,10.2004091 87.6651408,2.25124753 C75.7413984,-5.69791405 23.276932,9.40549295 11.3531897,16.5597384 C-0.570552684,23.7139838 -8.51971426,58.6902947 16.1226866,65.8445401 C27.438296,69.129717 37.580605,69.7330645 47.4732208,68.5781897 C55.9701154,78.8836813 64.1457085,84.6909514 72,86 C66.3038886,78.5950552 63.5278888,71.6767956 63.6720008,65.2452213 Z" id="Combined-Shape" stroke="#000000" stroke-width="2" fill="#FFFFFF"></path>
+                <text id="hi!" font-family="PTSans-NarrowBold, PT Sans Narrow" font-size="36" font-style="condensed" font-weight="bold" fill="#000000">
+                    <tspan x="35" y="49">hi!</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="251" height="250" viewBox="0 0 251 250">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="250" height="2" x="1" y="248" fill="#FF0151"/>
+    <rect width="2" height="250" fill="#FF0151"/>
+    <rect width="200" height="2" x="11" y="238" fill="#FAFF00"/>
+    <rect width="2" height="200" x="10" y="40" fill="#FAFF00"/>
+    <polygon fill="#FAFF00" fill-opacity=".2" points="47 182 72 228 22 228"/>
+    <polygon fill="#FAFF00" fill-opacity=".2" points="170.5 128 210 228 131 228"/>
+    <polygon fill="#FAFF00" fill-opacity=".2" points="103.5 78 155 228 52 228"/>
+    <g fill="#FFF" transform="translate(86 65)">
+      <rect width="35" height="1" y="12" fill-opacity=".3"/>
+      <rect width="1" height="3" x="34" y="9" fill-opacity=".3"/>
+      <rect width="1" height="3" y="9" fill-opacity=".3"/>
+      <text font-family="Roboto-Medium, Roboto" font-size="10" font-weight="400" letter-spacing=".667" opacity=".3">
+        <tspan x="5.299" y="9">1986</tspan>
+      </text>
+    </g>
+    <g fill="#FFF" transform="translate(153 115)">
+      <rect width="35" height="1" y="12" fill-opacity=".3"/>
+      <rect width="1" height="3" x="34" y="9" fill-opacity=".3"/>
+      <rect width="1" height="3" y="9" fill-opacity=".3"/>
+      <text font-family="Roboto-Medium, Roboto" font-size="10" font-weight="400" letter-spacing=".667" opacity=".3">
+        <tspan x="5.299" y="9">1124</tspan>
+      </text>
+    </g>
+    <g fill="#FFF" transform="translate(29 169)">
+      <rect width="35" height="1" y="12" fill-opacity=".3"/>
+      <rect width="1" height="3" y="9" fill-opacity=".3"/>
+      <rect width="1" height="3" x="34" y="9" fill-opacity=".3"/>
+      <text font-family="Roboto-Medium, Roboto" font-size="10" font-weight="400" letter-spacing=".667" opacity=".3">
+        <tspan x="8" y="9">370</tspan>
+      </text>
+    </g>
+    <polyline stroke="#00D72B" stroke-width="2" points="23 227 60 206 105 168 162 183 206 131"/>
+  </g>
+</svg>
